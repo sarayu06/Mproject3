@@ -1,0 +1,377 @@
+body{
+    font-family: sans-serif;
+    background: #34495e;
+}
+.box{
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 20px #333333);
+}
+label{
+    color: coral;
+    line-height: 0px;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 2.5px 2px;
+}
+.box input[type= "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+.box input[type= "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+.box button[type="submit"] {
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s; 
+    cursor: pointer;   
+}
+.box button[type="submit"]:hover{
+    background: #2ecc71;
+}
+p{
+    color: white;
+    text-align: right;
+    text-decoration: none;
+}
+p i{
+    cursor: pointer;
+    color: #EE6D09;
+}
+i{
+    color:white;
+    text-align: center;
+    top: 90px;
+}
+h4{
+    text-decoration: underline;
+    color: white;
+}
+.box_1{
+    width: 550px;
+    height: 900px;
+    padding: 40px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 30px;
+    filter: drop-shadow(0 0 20px #333333);
+}
+.pro{
+    float: right;
+    margin-top: 3.9px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    clear: both;
+}
+.navigation{
+    margin-top: 60px;
+}
+ 
+
+
+/*main page css*/
+.box_2{
+    margin-top: 3px;
+    width: 100%;
+}
+.pro{
+    position: relative;
+    float: right;
+    padding-bottom: 5px;
+}
+.nav_1{
+    margin: 0;
+    position: relative;
+    clear: right;
+    padding: 0;
+}
+.nav_1 li{
+    padding-right: 16rem;
+    padding-left: 6rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(255, 255, 255, 0.712);
+}
+.nav_1 li a{
+    color: black;
+}
+
+.notifi{
+    width: 95%;
+    position: relative;
+    border: 6px ridge darkgray;
+    border-radius: 30px;
+    margin-top: 6rem;
+    margin-left:40px;
+    padding-top: 11px;
+    padding-bottom: 30px;
+    
+    
+}
+
+.notifi p a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.ul li:first-child{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.notifi p{
+    text-align: center;
+    margin-bottom: 20px;
+    background: darkgrey;
+}
+
+/* drop down button in main page*/
+.dropbtn {
+    background: rgba(255, 255, 255, 0.712);
+    padding-top: 0px;
+    padding-right: 15rem;
+    padding-left: 100px;
+    font-size: 16px;
+    border: none;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.712);;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.712);
+    opacity: 0.8;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+button{
+    background: rgba(255, 255, 255, 0.712);
+}
+button a{
+    color: rgba(255, 255, 255, 0.712);
+    text-decoration: none;
+}
+.dropdown-content a:hover {background-color: rgba(255, 255, 255, 0.712);;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {color: rgba(255, 255, 255, 0.712);;}
+button:focus { outline: none; }
+button a:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.712);;
+}
+/* help and support in main page*/
+.help{
+    position: relative;
+    top:8rem;
+    right: 6px;
+    text-align: right;
+}
+.help a{
+    color: darkgrey;
+    border:2px solid black;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+/*exams html page*/
+.heading{
+    text-align: center;
+    margin-top:13px;
+    margin-left: 35rem;
+    margin-right: 35rem;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 800;
+    box-shadow: 5px 5px black;
+}
+.nav_2 li{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+/*regular fees page*/
+
+.regular_fee{
+    margin-top: 10rem;
+    border: 6px ridge darkgray;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    filter: drop-shadow(0 0 20px #333333);
+
+}
+.regular_fee label{
+    margin-top: 3.5em;
+    font-weight: 600;
+}
+.sub{
+    text-align: center;
+    margin-top: 4em;
+}
+
+/*supplementary fees*/
+.year{
+    width: 100%;
+}
+.year_1,.year_2,.year_3,.year_4{
+    display: inline-block;
+    width: 24%;
+    color: darkgray;
+}
+.year_1 p,.year_2 p,.year_3 p,.year_4 p{
+    text-align: center;
+    font-weight: 800;
+}
+.year_1 label,.year_2 label,.year_3 label,.year_4 label{
+    text-decoration: underline;
+    text-decoration-style:double;
+}
+/* college fees */
+
+.notify p{
+    text-align: left;
+    margin-bottom: 20px;
+    background: darkgrey;
+}
+.event-name{
+    margin-top: 10rem;
+    border: 6px ridge darkgray;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.event_name label{
+    margin-top: 3.5em;
+    font-weight: 600;
+}
+.box_3{
+    width: 800px;
+    height: 400px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right:60%;
+    transform: translate(-50%,-50%);
+    background:#34495e ;
+    color:darkgray;
+    padding:14px 40px;
+    cursor:pointer;
+    filter: drop-shadow(0 0 20px #333333);
+    
+    
+    
+    border-radius: 30px;
+    border: 6px ridge darkgray;
+    
+}
+a{
+    color: white;
+    text-align: left;
+    
+}
+.list_group p{
+    background: darkgray;
+    
+}
+
+/* profile */
+.split {
+    height: 100%;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  /* Control the left side */
+  .split_left {
+    position: absolute;
+    left: 0;
+    width:25%;
+    margin-left: 10px;
+    color: white;
+  }
+  
+  /* Control the right side */
+  .split_right {
+    position: absolute;
+    right: 0;
+    width:65%;
+    margin-right: 3rem;
+  }
+  .split_form{
+    width: 100%;
+    float: top;
+    display: inline-block;
+  
+  }
+  .split_table{
+    width: 100%;
+    float: bottom;
+    display: inline-block;
+  }
+  table, th, td {
+    border: 3px ridge darkgray;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+  }
